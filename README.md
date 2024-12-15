@@ -17,3 +17,6 @@ i ponownie zwerfikowano działanie.
 
 
 Dodatkowo w repozytoriu załączono logi z działania workflow.
+
+
+Link do docker hub: https://hub.docker.com/repository/docker/likosik500/zadanie_2/general
