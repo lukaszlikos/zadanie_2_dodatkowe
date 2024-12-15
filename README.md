@@ -5,7 +5,7 @@ Do przeprowadzenia testu wykorzystano narzędzie Trivy
 
 tryb skanowania cves,
 wyswietlenie podsumowania w tabeli,
-gnoruje podatności, dla których nie istnieje dostępna poprawka,
+ignoruje podatności, dla których nie istnieje dostępna poprawka,
 pokazując tylko podatności o poziomach CRITICAL i HIGH,
 kod błędu w przypadku wykrycia zagrożeń HIGH lub CRITICAL
 ![alt text](https://github.com/lukaszlikos/zadanie_2_dodatkowe/blob/master/images/Zrzut%20ekranu%202024-12-15%20022755.png)
