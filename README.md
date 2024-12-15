@@ -1,7 +1,7 @@
 W ramach zadania skonfigurowano workflow GitHub Actions do budowania wieloarchitekturowego obrazu Dockera uzupełniony o dane atestacji (SBOM oraz provenance), jego publikacji na DockerHub oraz przeprowadzenia testu na obecność podatności za pomocą programu Trivy.
 
 ![alt text](https://github.com/lukaszlikos/zadanie_2_dodatkowe/blob/master/images/provenance%20sbom.png)
-Do przeprowadzenia testu wykorzystano narzędzie Docker Scout 
+Do przeprowadzenia testu wykorzystano narzędzie Trivy 
 
 tryb skanowania cves,
 wyswietlenie podsumowania w tabeli,
