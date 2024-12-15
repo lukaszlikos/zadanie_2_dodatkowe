@@ -16,3 +16,4 @@ i ponownie zwerfikowano działanie.
 ![alt text](https://github.com/lukaszlikos/zadanie_2_dodatkowe/blob/master/images/Trivy.png)
 
 
+Dodatkowo w repozytoriu załączono logi z działania workflow.
