@@ -1,4 +1,4 @@
-name: workflow zad2 dodatkowe
+name: workflow zad2 dodatkowe 
 
 on:
   workflow_dispatch:
@@ -25,7 +25,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: likosik500/zadanie_2
+          images: ${{ vars.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}
           flavor: latest=false
           tags: |
             type=sha,priority=100,prefix=sha-,format=short
@@ -54,23 +54,17 @@ jobs:
           file: ./Dockerfile
           platforms: linux/amd64,linux/arm64
           push: true
-          provenance: mode=max
-          sbom: true
           cache-from: |
-            type=registry,ref=likosik500/zadanie_2:cache 
+            type=registry,ref=${{ vars.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:cache 
           cache-to: |
-            type=registry,ref=likosik500/zadanie_2:cache  
-          tags: latest
+            type=registry,ref=${{ vars.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:cache  
+          tags: ${{ steps.meta.outputs.tags }}
           
-      - 
-        name: Extract first tag
-        id: extract_tag
-        run: echo "TAG=$(echo 'latest' | cut -d',' -f1)" >> $GITHUB_ENV
-
-      - 
+      -
         name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@0.28.0
         with:
+          image-ref: likosik500/zadanie_2:latest@linux/amd64
           format: 'table'
           exit-code: '1'
           ignore-unfixed: true
