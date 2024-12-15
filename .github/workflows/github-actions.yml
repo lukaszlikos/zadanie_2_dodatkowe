@@ -66,5 +66,6 @@ jobs:
         with:
           image-ref: ${{ steps.meta.outputs.tags }}
           format: 'table'
+          exit-code: '1' # Fails the workflow on HIGH/CRITICAL vulnerabilities
           ignore-unfixed: true
           severity: 'CRITICAL,HIGH'
