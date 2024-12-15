@@ -1,0 +1,36 @@
+﻿2024-12-15T01:20:34.3609330Z Current runner version: '2.321.0'
+2024-12-15T01:20:34.3637349Z ##[group]Operating System
+2024-12-15T01:20:34.3638175Z Ubuntu
+2024-12-15T01:20:34.3638649Z 22.04.5
+2024-12-15T01:20:34.3639223Z LTS
+2024-12-15T01:20:34.3639737Z ##[endgroup]
+2024-12-15T01:20:34.3640241Z ##[group]Runner Image
+2024-12-15T01:20:34.3640851Z Image: ubuntu-22.04
+2024-12-15T01:20:34.3641384Z Version: 20241211.1.0
+2024-12-15T01:20:34.3642441Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20241211.1/images/ubuntu/Ubuntu2204-Readme.md
+2024-12-15T01:20:34.3643832Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20241211.1
+2024-12-15T01:20:34.3644735Z ##[endgroup]
+2024-12-15T01:20:34.3645268Z ##[group]Runner Image Provisioner
+2024-12-15T01:20:34.3645922Z 2.0.404.1
+2024-12-15T01:20:34.3646379Z ##[endgroup]
+2024-12-15T01:20:34.3647441Z ##[group]GITHUB_TOKEN Permissions
+2024-12-15T01:20:34.3649543Z Contents: read
+2024-12-15T01:20:34.3650084Z Metadata: read
+2024-12-15T01:20:34.3650673Z Packages: read
+2024-12-15T01:20:34.3651492Z ##[endgroup]
+2024-12-15T01:20:34.3653831Z Secret source: Actions
+2024-12-15T01:20:34.3654555Z Prepare workflow directory
+2024-12-15T01:20:34.4012949Z Prepare all required actions
+2024-12-15T01:20:34.4049061Z Getting action download info
+2024-12-15T01:20:34.6301653Z Download action repository 'actions/checkout@v4' (SHA:11bd71901bbe5b1630ceea73d27597364c9af683)
+2024-12-15T01:20:34.7482876Z Download action repository 'docker/metadata-action@v5' (SHA:369eb591f429131d6889c46b94e711f089e6ca96)
+2024-12-15T01:20:35.0888313Z Download action repository 'docker/setup-qemu-action@v3' (SHA:49b3bc8e6bdd4a60e6116a5414239cba5943d3cf)
+2024-12-15T01:20:35.3834602Z Download action repository 'docker/setup-buildx-action@v3' (SHA:c47758b77c9736f4b2ef4073d4d51994fabfe349)
+2024-12-15T01:20:35.7676741Z Download action repository 'docker/login-action@v3' (SHA:9780b0c442fbb1117ed29e0efdff1e18412f7567)
+2024-12-15T01:20:36.0874813Z Download action repository 'docker/build-push-action@v5' (SHA:ca052bb54ab0790a636c9b5f226502c73d547a25)
+2024-12-15T01:20:36.3777783Z Download action repository 'aquasecurity/trivy-action@0.28.0' (SHA:915b19bbe73b92a6cf82a1bc12b087c9a19a5fe2)
+2024-12-15T01:20:36.7463073Z Getting action download info
+2024-12-15T01:20:36.8649808Z Download action repository 'aquasecurity/setup-trivy@v0.2.1' (SHA:eadb05c36f891dc855bba00f67174a1e61528cd4)
+2024-12-15T01:20:37.0749397Z Download action repository 'actions/cache@v4' (SHA:1bd1e32a3bdc45362d1e726936510720a7c30a57)
+2024-12-15T01:20:37.4020976Z Getting action download info
+2024-12-15T01:20:37.5639576Z Complete job name: Build, tag and push Docker image to DockerHub

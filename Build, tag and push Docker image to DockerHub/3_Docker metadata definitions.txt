@@ -1,0 +1,142 @@
+﻿2024-12-15T01:20:38.3130522Z ##[group]Run docker/metadata-action@v5
+2024-12-15T01:20:38.3131026Z with:
+2024-12-15T01:20:38.3131314Z   images: likosik500/zadanie_2
+2024-12-15T01:20:38.3131591Z   flavor: latest=false
+2024-12-15T01:20:38.3132145Z   tags: type=sha,priority=100,prefix=sha-,format=short
+type=semver,priority=200,pattern={{version}}   
+
+2024-12-15T01:20:38.3132702Z   context: workflow
+2024-12-15T01:20:38.3133152Z   github-token: ***
+2024-12-15T01:20:38.3133506Z env:
+2024-12-15T01:20:38.3133728Z   REGISTRY: docker.io
+2024-12-15T01:20:38.3134030Z   IMAGE_NAME: zadanie_2
+2024-12-15T01:20:38.3134383Z ##[endgroup]
+2024-12-15T01:20:39.0838105Z ##[group]Context info
+2024-12-15T01:20:39.0840560Z eventName: workflow_dispatch
+2024-12-15T01:20:39.0841408Z sha: 56ae4708b2ef2eb1a0377740f8a2e47bc728109b
+2024-12-15T01:20:39.0842057Z ref: refs/heads/master
+2024-12-15T01:20:39.0842515Z workflow: workflow zad2 dodatkowe
+2024-12-15T01:20:39.0843199Z action: meta
+2024-12-15T01:20:39.0843711Z actor: lukaszlikos
+2024-12-15T01:20:39.0844179Z runNumber: 7
+2024-12-15T01:20:39.0845055Z runId: 12334645372
+2024-12-15T01:20:39.0900809Z commitDate: Sun Dec 15 2024 01:20:14 GMT+0000 (Coordinated Universal Time)
+2024-12-15T01:20:39.0902315Z ##[endgroup]
+2024-12-15T01:20:39.0908251Z ##[group]Processing images input
+2024-12-15T01:20:39.0909056Z name=likosik500/zadanie_2,enable=true
+2024-12-15T01:20:39.0910130Z ##[endgroup]
+2024-12-15T01:20:39.0919278Z ##[group]Processing tags input
+2024-12-15T01:20:39.0921150Z type=semver,priority=200,pattern={{version}},value=,enable=true
+2024-12-15T01:20:39.0921994Z type=sha,priority=100,prefix=sha-,format=short,enable=true
+2024-12-15T01:20:39.0923248Z ##[endgroup]
+2024-12-15T01:20:39.0927104Z ##[group]Processing flavor input
+2024-12-15T01:20:39.0927886Z latest=false
+2024-12-15T01:20:39.0928357Z prefix=
+2024-12-15T01:20:39.0928804Z prefixLatest=false
+2024-12-15T01:20:39.0929520Z suffix=
+2024-12-15T01:20:39.0929949Z suffixLatest=false
+2024-12-15T01:20:39.0930901Z ##[endgroup]
+2024-12-15T01:20:39.0967494Z ##[group]Docker image version
+2024-12-15T01:20:39.0972121Z sha-56ae470
+2024-12-15T01:20:39.0973128Z ##[endgroup]
+2024-12-15T01:20:39.0973868Z ##[group]Docker tags
+2024-12-15T01:20:39.0974538Z likosik500/zadanie_2:sha-56ae470
+2024-12-15T01:20:39.0975384Z ##[endgroup]
+2024-12-15T01:20:39.1146681Z ##[group]Docker labels
+2024-12-15T01:20:39.1147436Z org.opencontainers.image.created=2024-12-15T01:20:39.092Z
+2024-12-15T01:20:39.1148422Z org.opencontainers.image.description=
+2024-12-15T01:20:39.1149118Z org.opencontainers.image.licenses=
+2024-12-15T01:20:39.1149922Z org.opencontainers.image.revision=56ae4708b2ef2eb1a0377740f8a2e47bc728109b
+2024-12-15T01:20:39.1151236Z org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2_dodatkowe
+2024-12-15T01:20:39.1152270Z org.opencontainers.image.title=zadanie_2_dodatkowe
+2024-12-15T01:20:39.1153238Z org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2_dodatkowe
+2024-12-15T01:20:39.1154162Z org.opencontainers.image.version=sha-56ae470
+2024-12-15T01:20:39.1155213Z ##[endgroup]
+2024-12-15T01:20:39.1156300Z ##[group]Annotations
+2024-12-15T01:20:39.1156958Z manifest:org.opencontainers.image.created=2024-12-15T01:20:39.092Z
+2024-12-15T01:20:39.1157937Z manifest:org.opencontainers.image.description=
+2024-12-15T01:20:39.1158739Z manifest:org.opencontainers.image.licenses=
+2024-12-15T01:20:39.1159646Z manifest:org.opencontainers.image.revision=56ae4708b2ef2eb1a0377740f8a2e47bc728109b
+2024-12-15T01:20:39.1161061Z manifest:org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2_dodatkowe
+2024-12-15T01:20:39.1162238Z manifest:org.opencontainers.image.title=zadanie_2_dodatkowe
+2024-12-15T01:20:39.1163335Z manifest:org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2_dodatkowe
+2024-12-15T01:20:39.1164556Z manifest:org.opencontainers.image.version=sha-56ae470
+2024-12-15T01:20:39.1165677Z ##[endgroup]
+2024-12-15T01:20:39.1166677Z ##[group]JSON output
+2024-12-15T01:20:39.1167192Z {
+2024-12-15T01:20:39.1167963Z   "tags": [
+2024-12-15T01:20:39.1168636Z     "likosik500/zadanie_2:sha-56ae470"
+2024-12-15T01:20:39.1169594Z   ],
+2024-12-15T01:20:39.1170404Z   "labels": {
+2024-12-15T01:20:39.1171230Z     "org.opencontainers.image.created": "2024-12-15T01:20:39.092Z",
+2024-12-15T01:20:39.1172128Z     "org.opencontainers.image.description": "",
+2024-12-15T01:20:39.1173052Z     "org.opencontainers.image.licenses": "",
+2024-12-15T01:20:39.1173969Z     "org.opencontainers.image.revision": "56ae4708b2ef2eb1a0377740f8a2e47bc728109b",
+2024-12-15T01:20:39.1175195Z     "org.opencontainers.image.source": "https://github.com/lukaszlikos/zadanie_2_dodatkowe",
+2024-12-15T01:20:39.1176374Z     "org.opencontainers.image.title": "zadanie_2_dodatkowe",
+2024-12-15T01:20:39.1177467Z     "org.opencontainers.image.url": "https://github.com/lukaszlikos/zadanie_2_dodatkowe",
+2024-12-15T01:20:39.1178426Z     "org.opencontainers.image.version": "sha-56ae470"
+2024-12-15T01:20:39.1179228Z   },
+2024-12-15T01:20:39.1179732Z   "annotations": [
+2024-12-15T01:20:39.1180441Z     "manifest:org.opencontainers.image.created=2024-12-15T01:20:39.092Z",
+2024-12-15T01:20:39.1181850Z     "manifest:org.opencontainers.image.description=",
+2024-12-15T01:20:39.1182512Z     "manifest:org.opencontainers.image.licenses=",
+2024-12-15T01:20:39.1183335Z     "manifest:org.opencontainers.image.revision=56ae4708b2ef2eb1a0377740f8a2e47bc728109b",
+2024-12-15T01:20:39.1184855Z     "manifest:org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2_dodatkowe",
+2024-12-15T01:20:39.1185866Z     "manifest:org.opencontainers.image.title=zadanie_2_dodatkowe",
+2024-12-15T01:20:39.1186798Z     "manifest:org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2_dodatkowe",
+2024-12-15T01:20:39.1187878Z     "manifest:org.opencontainers.image.version=sha-56ae470"
+2024-12-15T01:20:39.1188496Z   ]
+2024-12-15T01:20:39.1188823Z }
+2024-12-15T01:20:39.1189888Z ##[endgroup]
+2024-12-15T01:20:39.1190740Z ##[group]Bake file definition (tags)
+2024-12-15T01:20:39.1191438Z {
+2024-12-15T01:20:39.1191773Z   "target": {
+2024-12-15T01:20:39.1192289Z     "docker-metadata-action": {
+2024-12-15T01:20:39.1192824Z       "tags": [
+2024-12-15T01:20:39.1193226Z         "likosik500/zadanie_2:sha-56ae470"
+2024-12-15T01:20:39.1193863Z       ],
+2024-12-15T01:20:39.1194236Z       "args": {
+2024-12-15T01:20:39.1194820Z         "DOCKER_META_IMAGES": "likosik500/zadanie_2",
+2024-12-15T01:20:39.1195432Z         "DOCKER_META_VERSION": "sha-56ae470"
+2024-12-15T01:20:39.1195924Z       }
+2024-12-15T01:20:39.1196433Z     }
+2024-12-15T01:20:39.1196825Z   }
+2024-12-15T01:20:39.1197258Z }
+2024-12-15T01:20:39.1197960Z ##[endgroup]
+2024-12-15T01:20:39.1198821Z ##[group]Bake file definition (labels)
+2024-12-15T01:20:39.1199372Z {
+2024-12-15T01:20:39.1199826Z   "target": {
+2024-12-15T01:20:39.1200232Z     "docker-metadata-action": {
+2024-12-15T01:20:39.1200734Z       "labels": {
+2024-12-15T01:20:39.1201365Z         "org.opencontainers.image.created": "2024-12-15T01:20:39.092Z",
+2024-12-15T01:20:39.1202120Z         "org.opencontainers.image.description": "",
+2024-12-15T01:20:39.1202782Z         "org.opencontainers.image.licenses": "",
+2024-12-15T01:20:39.1203658Z         "org.opencontainers.image.revision": "56ae4708b2ef2eb1a0377740f8a2e47bc728109b",
+2024-12-15T01:20:39.1204775Z         "org.opencontainers.image.source": "https://github.com/lukaszlikos/zadanie_2_dodatkowe",
+2024-12-15T01:20:39.1205666Z         "org.opencontainers.image.title": "zadanie_2_dodatkowe",
+2024-12-15T01:20:39.1206635Z         "org.opencontainers.image.url": "https://github.com/lukaszlikos/zadanie_2_dodatkowe",
+2024-12-15T01:20:39.1207568Z         "org.opencontainers.image.version": "sha-56ae470"
+2024-12-15T01:20:39.1208159Z       }
+2024-12-15T01:20:39.1208553Z     }
+2024-12-15T01:20:39.1208962Z   }
+2024-12-15T01:20:39.1209319Z }
+2024-12-15T01:20:39.1210068Z ##[endgroup]
+2024-12-15T01:20:39.1210757Z ##[group]Bake file definition (annotations)
+2024-12-15T01:20:39.1211412Z {
+2024-12-15T01:20:39.1211734Z   "target": {
+2024-12-15T01:20:39.1212418Z     "docker-metadata-action": {
+2024-12-15T01:20:39.1213282Z       "annotations": [
+2024-12-15T01:20:39.1213923Z         "manifest:org.opencontainers.image.created=2024-12-15T01:20:39.092Z",
+2024-12-15T01:20:39.1214707Z         "manifest:org.opencontainers.image.description=",
+2024-12-15T01:20:39.1215529Z         "manifest:org.opencontainers.image.licenses=",
+2024-12-15T01:20:39.1216434Z         "manifest:org.opencontainers.image.revision=56ae4708b2ef2eb1a0377740f8a2e47bc728109b",
+2024-12-15T01:20:39.1217580Z         "manifest:org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2_dodatkowe",
+2024-12-15T01:20:39.1218684Z         "manifest:org.opencontainers.image.title=zadanie_2_dodatkowe",
+2024-12-15T01:20:39.1219700Z         "manifest:org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2_dodatkowe",
+2024-12-15T01:20:39.1220641Z         "manifest:org.opencontainers.image.version=sha-56ae470"
+2024-12-15T01:20:39.1221365Z       ]
+2024-12-15T01:20:39.1221705Z     }
+2024-12-15T01:20:39.1222062Z   }
+2024-12-15T01:20:39.1222539Z }
+2024-12-15T01:20:39.1223206Z ##[endgroup]

@@ -1,0 +1,35 @@
+﻿2024-12-15T01:20:43.0537816Z ##[group]Run docker/login-action@v3
+2024-12-15T01:20:43.0538526Z with:
+2024-12-15T01:20:43.0538996Z   username: likosik500
+2024-12-15T01:20:43.0539580Z   password: ***
+2024-12-15T01:20:43.0540112Z   ecr: auto
+2024-12-15T01:20:43.0540562Z   logout: true
+2024-12-15T01:20:43.0540964Z env:
+2024-12-15T01:20:43.0541446Z   REGISTRY: docker.io
+2024-12-15T01:20:43.0541941Z   IMAGE_NAME: zadanie_2
+2024-12-15T01:20:43.0542460Z   DOCKER_METADATA_OUTPUT_VERSION: sha-56ae470
+2024-12-15T01:20:43.0543338Z   DOCKER_METADATA_OUTPUT_TAGS: likosik500/zadanie_2:sha-56ae470
+2024-12-15T01:20:43.0547108Z   DOCKER_METADATA_OUTPUT_LABELS: org.opencontainers.image.created=2024-12-15T01:20:39.092Z
+org.opencontainers.image.description=
+org.opencontainers.image.licenses=
+org.opencontainers.image.revision=56ae4708b2ef2eb1a0377740f8a2e47bc728109b
+org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2_dodatkowe
+org.opencontainers.image.title=zadanie_2_dodatkowe
+org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2_dodatkowe
+org.opencontainers.image.version=sha-56ae470
+2024-12-15T01:20:43.0553034Z   DOCKER_METADATA_OUTPUT_ANNOTATIONS: manifest:org.opencontainers.image.created=2024-12-15T01:20:39.092Z
+manifest:org.opencontainers.image.description=
+manifest:org.opencontainers.image.licenses=
+manifest:org.opencontainers.image.revision=56ae4708b2ef2eb1a0377740f8a2e47bc728109b
+manifest:org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2_dodatkowe
+manifest:org.opencontainers.image.title=zadanie_2_dodatkowe
+manifest:org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2_dodatkowe
+manifest:org.opencontainers.image.version=sha-56ae470
+2024-12-15T01:20:43.0560551Z   DOCKER_METADATA_OUTPUT_JSON: {"tags":["likosik500/zadanie_2:sha-56ae470"],"labels":{"org.opencontainers.image.created":"2024-12-15T01:20:39.092Z","org.opencontainers.image.description":"","org.opencontainers.image.licenses":"","org.opencontainers.image.revision":"56ae4708b2ef2eb1a0377740f8a2e47bc728109b","org.opencontainers.image.source":"https://github.com/lukaszlikos/zadanie_2_dodatkowe","org.opencontainers.image.title":"zadanie_2_dodatkowe","org.opencontainers.image.url":"https://github.com/lukaszlikos/zadanie_2_dodatkowe","org.opencontainers.image.version":"sha-56ae470"},"annotations":["manifest:org.opencontainers.image.created=2024-12-15T01:20:39.092Z","manifest:org.opencontainers.image.description=","manifest:org.opencontainers.image.licenses=","manifest:org.opencontainers.image.revision=56ae4708b2ef2eb1a0377740f8a2e47bc728109b","manifest:org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2_dodatkowe","manifest:org.opencontainers.image.title=zadanie_2_dodatkowe","manifest:org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2_dodatkowe","manifest:org.opencontainers.image.version=sha-56ae470"]}
+2024-12-15T01:20:43.0566229Z   DOCKER_METADATA_OUTPUT_BAKE_FILE_TAGS: /home/runner/work/_temp/docker-actions-toolkit-19PflO/docker-metadata-action-bake-tags.json
+2024-12-15T01:20:43.0567383Z   DOCKER_METADATA_OUTPUT_BAKE_FILE_LABELS: /home/runner/work/_temp/docker-actions-toolkit-19PflO/docker-metadata-action-bake-labels.json
+2024-12-15T01:20:43.0568609Z   DOCKER_METADATA_OUTPUT_BAKE_FILE_ANNOTATIONS: /home/runner/work/_temp/docker-actions-toolkit-19PflO/docker-metadata-action-bake-annotations.json
+2024-12-15T01:20:43.0569548Z   DOCKER_METADATA_OUTPUT_BAKE_FILE: /home/runner/work/_temp/docker-actions-toolkit-19PflO/docker-metadata-action-bake.json
+2024-12-15T01:20:43.0570130Z ##[endgroup]
+2024-12-15T01:20:43.3598562Z Logging into Docker Hub...
+2024-12-15T01:20:43.5116803Z Login Succeeded!

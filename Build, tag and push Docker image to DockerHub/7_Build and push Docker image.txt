@@ -1,0 +1,403 @@
+﻿2024-12-15T01:20:43.5271633Z ##[group]Run docker/build-push-action@v5
+2024-12-15T01:20:43.5272148Z with:
+2024-12-15T01:20:43.5272406Z   context: .
+2024-12-15T01:20:43.5272676Z   file: ./Dockerfile
+2024-12-15T01:20:43.5273027Z   platforms: linux/amd64,linux/arm64
+2024-12-15T01:20:43.5273354Z   push: true
+2024-12-15T01:20:43.5273691Z   cache-from: type=registry,ref=likosik500/zadanie_2:cache 
+
+2024-12-15T01:20:43.5274205Z   cache-to: type=registry,ref=likosik500/zadanie_2:cache  
+
+2024-12-15T01:20:43.5274622Z   tags: likosik500/zadanie_2:sha-56ae470
+2024-12-15T01:20:43.5274935Z   load: false
+2024-12-15T01:20:43.5275286Z   no-cache: false
+2024-12-15T01:20:43.5275542Z   pull: false
+2024-12-15T01:20:43.5275990Z   github-token: ***
+2024-12-15T01:20:43.5276352Z env:
+2024-12-15T01:20:43.5276621Z   REGISTRY: docker.io
+2024-12-15T01:20:43.5276853Z   IMAGE_NAME: zadanie_2
+2024-12-15T01:20:43.5277248Z   DOCKER_METADATA_OUTPUT_VERSION: sha-56ae470
+2024-12-15T01:20:43.5277693Z   DOCKER_METADATA_OUTPUT_TAGS: likosik500/zadanie_2:sha-56ae470
+2024-12-15T01:20:43.5279823Z   DOCKER_METADATA_OUTPUT_LABELS: org.opencontainers.image.created=2024-12-15T01:20:39.092Z
+org.opencontainers.image.description=
+org.opencontainers.image.licenses=
+org.opencontainers.image.revision=56ae4708b2ef2eb1a0377740f8a2e47bc728109b
+org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2_dodatkowe
+org.opencontainers.image.title=zadanie_2_dodatkowe
+org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2_dodatkowe
+org.opencontainers.image.version=sha-56ae470
+2024-12-15T01:20:43.5283492Z   DOCKER_METADATA_OUTPUT_ANNOTATIONS: manifest:org.opencontainers.image.created=2024-12-15T01:20:39.092Z
+manifest:org.opencontainers.image.description=
+manifest:org.opencontainers.image.licenses=
+manifest:org.opencontainers.image.revision=56ae4708b2ef2eb1a0377740f8a2e47bc728109b
+manifest:org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2_dodatkowe
+manifest:org.opencontainers.image.title=zadanie_2_dodatkowe
+manifest:org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2_dodatkowe
+manifest:org.opencontainers.image.version=sha-56ae470
+2024-12-15T01:20:43.5289436Z   DOCKER_METADATA_OUTPUT_JSON: {"tags":["likosik500/zadanie_2:sha-56ae470"],"labels":{"org.opencontainers.image.created":"2024-12-15T01:20:39.092Z","org.opencontainers.image.description":"","org.opencontainers.image.licenses":"","org.opencontainers.image.revision":"56ae4708b2ef2eb1a0377740f8a2e47bc728109b","org.opencontainers.image.source":"https://github.com/lukaszlikos/zadanie_2_dodatkowe","org.opencontainers.image.title":"zadanie_2_dodatkowe","org.opencontainers.image.url":"https://github.com/lukaszlikos/zadanie_2_dodatkowe","org.opencontainers.image.version":"sha-56ae470"},"annotations":["manifest:org.opencontainers.image.created=2024-12-15T01:20:39.092Z","manifest:org.opencontainers.image.description=","manifest:org.opencontainers.image.licenses=","manifest:org.opencontainers.image.revision=56ae4708b2ef2eb1a0377740f8a2e47bc728109b","manifest:org.opencontainers.image.source=https://github.com/lukaszlikos/zadanie_2_dodatkowe","manifest:org.opencontainers.image.title=zadanie_2_dodatkowe","manifest:org.opencontainers.image.url=https://github.com/lukaszlikos/zadanie_2_dodatkowe","manifest:org.opencontainers.image.version=sha-56ae470"]}
+2024-12-15T01:20:43.5293944Z   DOCKER_METADATA_OUTPUT_BAKE_FILE_TAGS: /home/runner/work/_temp/docker-actions-toolkit-19PflO/docker-metadata-action-bake-tags.json
+2024-12-15T01:20:43.5294923Z   DOCKER_METADATA_OUTPUT_BAKE_FILE_LABELS: /home/runner/work/_temp/docker-actions-toolkit-19PflO/docker-metadata-action-bake-labels.json
+2024-12-15T01:20:43.5295954Z   DOCKER_METADATA_OUTPUT_BAKE_FILE_ANNOTATIONS: /home/runner/work/_temp/docker-actions-toolkit-19PflO/docker-metadata-action-bake-annotations.json
+2024-12-15T01:20:43.5296914Z   DOCKER_METADATA_OUTPUT_BAKE_FILE: /home/runner/work/_temp/docker-actions-toolkit-19PflO/docker-metadata-action-bake.json
+2024-12-15T01:20:43.5297588Z ##[endgroup]
+2024-12-15T01:20:43.7490285Z ##[group]GitHub Actions runtime token ACs
+2024-12-15T01:20:43.7497351Z refs/heads/master: read/write
+2024-12-15T01:20:43.7498349Z ##[endgroup]
+2024-12-15T01:20:43.7499276Z ##[group]Docker info
+2024-12-15T01:20:43.7541056Z [command]/usr/bin/docker version
+2024-12-15T01:20:43.7723452Z Client: Docker Engine - Community
+2024-12-15T01:20:43.7726965Z  Version:           26.1.3
+2024-12-15T01:20:43.7727505Z  API version:       1.45
+2024-12-15T01:20:43.7727888Z  Go version:        go1.21.10
+2024-12-15T01:20:43.7728233Z  Git commit:        b72abbb
+2024-12-15T01:20:43.7728553Z  Built:             Thu May 16 08:33:29 2024
+2024-12-15T01:20:43.7728964Z  OS/Arch:           linux/amd64
+2024-12-15T01:20:43.7729256Z  Context:           default
+2024-12-15T01:20:43.7729463Z 
+2024-12-15T01:20:43.7729583Z Server: Docker Engine - Community
+2024-12-15T01:20:43.7729985Z  Engine:
+2024-12-15T01:20:43.7730207Z   Version:          26.1.3
+2024-12-15T01:20:43.7730532Z   API version:      1.45 (minimum version 1.24)
+2024-12-15T01:20:43.7730977Z   Go version:       go1.21.10
+2024-12-15T01:20:43.7731307Z   Git commit:       8e96db1
+2024-12-15T01:20:43.7731603Z   Built:            Thu May 16 08:33:29 2024
+2024-12-15T01:20:43.7732027Z   OS/Arch:          linux/amd64
+2024-12-15T01:20:43.7732337Z   Experimental:     false
+2024-12-15T01:20:43.7732610Z  containerd:
+2024-12-15T01:20:43.7732944Z   Version:          1.7.24
+2024-12-15T01:20:43.7733296Z   GitCommit:        88bf19b2105c8b17560993bee28a01ddc2f97182
+2024-12-15T01:20:43.7733813Z  runc:
+2024-12-15T01:20:43.7734403Z   Version:          1.2.2
+2024-12-15T01:20:43.7734869Z   GitCommit:        v1.2.2-0-g7cb3632
+2024-12-15T01:20:43.7735439Z  docker-init:
+2024-12-15T01:20:43.7736074Z   Version:          0.19.0
+2024-12-15T01:20:43.7736525Z   GitCommit:        de40ad0
+2024-12-15T01:20:43.7776816Z [command]/usr/bin/docker info
+2024-12-15T01:20:43.8159396Z Client: Docker Engine - Community
+2024-12-15T01:20:43.8159967Z  Version:    26.1.3
+2024-12-15T01:20:43.8160424Z  Context:    default
+2024-12-15T01:20:43.8160996Z  Debug Mode: false
+2024-12-15T01:20:43.8161542Z  Plugins:
+2024-12-15T01:20:43.8162398Z   buildx: Docker Buildx (Docker Inc.)
+2024-12-15T01:20:43.8162869Z     Version:  v0.19.2
+2024-12-15T01:20:43.8163234Z     Path:     /usr/libexec/docker/cli-plugins/docker-buildx
+2024-12-15T01:20:43.8163651Z   compose: Docker Compose (Docker Inc.)
+2024-12-15T01:20:43.8164035Z     Version:  v2.27.1
+2024-12-15T01:20:43.8164393Z     Path:     /usr/libexec/docker/cli-plugins/docker-compose
+2024-12-15T01:20:43.8164683Z 
+2024-12-15T01:20:43.8164763Z Server:
+2024-12-15T01:20:43.8165089Z  Containers: 1
+2024-12-15T01:20:43.8165332Z   Running: 1
+2024-12-15T01:20:43.8165568Z   Paused: 0
+2024-12-15T01:20:43.8165904Z   Stopped: 0
+2024-12-15T01:20:43.8166141Z  Images: 16
+2024-12-15T01:20:43.8166377Z  Server Version: 26.1.3
+2024-12-15T01:20:43.8166746Z  Storage Driver: overlay2
+2024-12-15T01:20:43.8167061Z   Backing Filesystem: extfs
+2024-12-15T01:20:43.8167313Z   Supports d_type: true
+2024-12-15T01:20:43.8167690Z   Using metacopy: false
+2024-12-15T01:20:43.8167969Z   Native Overlay Diff: false
+2024-12-15T01:20:43.8168331Z   userxattr: false
+2024-12-15T01:20:43.8168606Z  Logging Driver: json-file
+2024-12-15T01:20:43.8168905Z  Cgroup Driver: cgroupfs
+2024-12-15T01:20:43.8169237Z  Cgroup Version: 2
+2024-12-15T01:20:43.8169495Z  Plugins:
+2024-12-15T01:20:43.8169743Z   Volume: local
+2024-12-15T01:20:43.8170091Z   Network: bridge host ipvlan macvlan null overlay
+2024-12-15T01:20:43.8170596Z   Log: awslogs fluentd gcplogs gelf journald json-file local splunk syslog
+2024-12-15T01:20:43.8170986Z  Swarm: inactive
+2024-12-15T01:20:43.8171330Z  Runtimes: io.containerd.runc.v2 runc
+2024-12-15T01:20:43.8171790Z  Default Runtime: runc
+2024-12-15T01:20:43.8172200Z  Init Binary: docker-init
+2024-12-15T01:20:43.8172679Z  containerd version: 88bf19b2105c8b17560993bee28a01ddc2f97182
+2024-12-15T01:20:43.8173093Z  runc version: v1.2.2-0-g7cb3632
+2024-12-15T01:20:43.8173408Z  init version: de40ad0
+2024-12-15T01:20:43.8173721Z  Security Options:
+2024-12-15T01:20:43.8174001Z   apparmor
+2024-12-15T01:20:43.8174510Z   seccomp
+2024-12-15T01:20:43.8174839Z    Profile: builtin
+2024-12-15T01:20:43.8175074Z   cgroupns
+2024-12-15T01:20:43.8175344Z  Kernel Version: 6.5.0-1025-azure
+2024-12-15T01:20:43.8175742Z  Operating System: Ubuntu 22.04.5 LTS
+2024-12-15T01:20:43.8176036Z  OSType: linux
+2024-12-15T01:20:43.8176478Z  Architecture: x86_64
+2024-12-15T01:20:43.8176979Z  CPUs: 4
+2024-12-15T01:20:43.8177370Z  Total Memory: 15.61GiB
+2024-12-15T01:20:43.8177618Z  Name: fv-az847-5
+2024-12-15T01:20:43.8177974Z  ID: 931c16f1-f96c-4ff8-81c0-8c546045717e
+2024-12-15T01:20:43.8178330Z  Docker Root Dir: /var/lib/docker
+2024-12-15T01:20:43.8178595Z  Debug Mode: false
+2024-12-15T01:20:43.8178923Z  Username: likosik500
+2024-12-15T01:20:43.8179260Z  Experimental: false
+2024-12-15T01:20:43.8179517Z  Insecure Registries:
+2024-12-15T01:20:43.8179830Z   127.0.0.0/8
+2024-12-15T01:20:43.8180183Z  Live Restore Enabled: false
+2024-12-15T01:20:43.8180456Z 
+2024-12-15T01:20:43.8181069Z ##[endgroup]
+2024-12-15T01:20:43.8181569Z ##[group]Proxy configuration
+2024-12-15T01:20:43.8181882Z No proxy configuration found
+2024-12-15T01:20:43.8182439Z ##[endgroup]
+2024-12-15T01:20:43.8653366Z ##[group]Buildx version
+2024-12-15T01:20:43.8680059Z [command]/usr/bin/docker buildx version
+2024-12-15T01:20:43.9077470Z github.com/docker/buildx v0.19.2 1fc5647dc281ca3c2ad5b451aeff2dce84f1dc49
+2024-12-15T01:20:43.9109022Z ##[endgroup]
+2024-12-15T01:20:43.9109729Z ##[group]Builder info
+2024-12-15T01:20:44.0053752Z {
+2024-12-15T01:20:44.0054531Z   "nodes": [
+2024-12-15T01:20:44.0054944Z     {
+2024-12-15T01:20:44.0055560Z       "name": "builder-a7659c35-20da-4ae3-b004-d3460be26dbb0",
+2024-12-15T01:20:44.0056295Z       "endpoint": "unix:///var/run/docker.sock",
+2024-12-15T01:20:44.0056832Z       "status": "running",
+2024-12-15T01:20:44.0057817Z       "buildkitd-flags": "--allow-insecure-entitlement security.insecure --allow-insecure-entitlement network.host",
+2024-12-15T01:20:44.0058788Z       "buildkit": "v0.18.1",
+2024-12-15T01:20:44.0059553Z       "platforms": "linux/amd64,linux/amd64/v2,linux/amd64/v3,linux/arm64,linux/riscv64,linux/ppc64le,linux/s390x,linux/386,linux/arm/v7,linux/arm/v6",
+2024-12-15T01:20:44.0060640Z       "features": {
+2024-12-15T01:20:44.0061059Z         "Automatically load images to the Docker Engine image store": true,
+2024-12-15T01:20:44.0061488Z         "Cache export": true,
+2024-12-15T01:20:44.0061867Z         "Docker exporter": true,
+2024-12-15T01:20:44.0062180Z         "Multi-platform build": true,
+2024-12-15T01:20:44.0062558Z         "OCI exporter": true
+2024-12-15T01:20:44.0062916Z       },
+2024-12-15T01:20:44.0063140Z       "labels": {
+2024-12-15T01:20:44.0063466Z         "org.mobyproject.buildkit.worker.executor": "oci",
+2024-12-15T01:20:44.0063982Z         "org.mobyproject.buildkit.worker.hostname": "2407c26f3f36",
+2024-12-15T01:20:44.0064813Z         "org.mobyproject.buildkit.worker.network": "host",
+2024-12-15T01:20:44.0065473Z         "org.mobyproject.buildkit.worker.oci.process-mode": "sandbox",
+2024-12-15T01:20:44.0066094Z         "org.mobyproject.buildkit.worker.selinux.enabled": "false",
+2024-12-15T01:20:44.0066594Z         "org.mobyproject.buildkit.worker.snapshotter": "overlayfs"
+2024-12-15T01:20:44.0066974Z       },
+2024-12-15T01:20:44.0067281Z       "gcPolicy": [
+2024-12-15T01:20:44.0067537Z         {
+2024-12-15T01:20:44.0067796Z           "all": false,
+2024-12-15T01:20:44.0068166Z           "filter": [
+2024-12-15T01:20:44.0068413Z             "type==source.local",
+2024-12-15T01:20:44.0068706Z             "type==exec.cachemount",
+2024-12-15T01:20:44.0069134Z             "type==source.git.checkout"
+2024-12-15T01:20:44.0069412Z           ],
+2024-12-15T01:20:44.0069654Z           "keepDuration": "48h0m0s"
+2024-12-15T01:20:44.0070047Z         },
+2024-12-15T01:20:44.0070282Z         {
+2024-12-15T01:20:44.0070486Z           "all": false,
+2024-12-15T01:20:44.0070847Z           "keepDuration": "1440h0m0s"
+2024-12-15T01:20:44.0071147Z         },
+2024-12-15T01:20:44.0071346Z         {
+2024-12-15T01:20:44.0071665Z           "all": false
+2024-12-15T01:20:44.0072150Z         },
+2024-12-15T01:20:44.0072446Z         {
+2024-12-15T01:20:44.0072668Z           "all": true
+2024-12-15T01:20:44.0072944Z         }
+2024-12-15T01:20:44.0073573Z       ]
+2024-12-15T01:20:44.0073816Z     }
+2024-12-15T01:20:44.0074071Z   ],
+2024-12-15T01:20:44.0074425Z   "name": "builder-a7659c35-20da-4ae3-b004-d3460be26dbb",
+2024-12-15T01:20:44.0074842Z   "driver": "docker-container",
+2024-12-15T01:20:44.0075141Z   "lastActivity": "2024-12-15T01:20:42.000Z"
+2024-12-15T01:20:44.0075519Z }
+2024-12-15T01:20:44.0076046Z ##[endgroup]
+2024-12-15T01:20:44.1613765Z [command]/usr/bin/docker buildx build --cache-from type=registry,ref=likosik500/zadanie_2:cache --cache-to type=registry,ref=likosik500/zadanie_2:cache --file ./Dockerfile --iidfile /home/runner/work/_temp/docker-actions-toolkit-k61Mws/build-iidfile-e4aaafa3ee.txt --platform linux/amd64,linux/arm64 --attest type=provenance,mode=max,builder-id=https://github.com/lukaszlikos/zadanie_2_dodatkowe/actions/runs/12334645372 --tag likosik500/zadanie_2:sha-56ae470 --metadata-file /home/runner/work/_temp/docker-actions-toolkit-k61Mws/build-metadata-bc6bc46a44.json --push .
+2024-12-15T01:20:44.4037276Z #0 building with "builder-a7659c35-20da-4ae3-b004-d3460be26dbb" instance using docker-container driver
+2024-12-15T01:20:44.4038137Z 
+2024-12-15T01:20:44.4038416Z #1 [internal] load build definition from Dockerfile
+2024-12-15T01:20:44.4039184Z #1 transferring dockerfile: 560B done
+2024-12-15T01:20:44.4039751Z #1 DONE 0.0s
+2024-12-15T01:20:44.4040022Z 
+2024-12-15T01:20:44.4040276Z #2 [auth] library/node:pull token for registry-1.docker.io
+2024-12-15T01:20:44.5546158Z #2 DONE 0.0s
+2024-12-15T01:20:44.5546518Z 
+2024-12-15T01:20:44.5547006Z #3 [linux/arm64 internal] load metadata for docker.io/library/node:18-alpine
+2024-12-15T01:20:45.0174667Z #3 ...
+2024-12-15T01:20:45.0175234Z 
+2024-12-15T01:20:45.0175928Z #4 [linux/amd64 internal] load metadata for docker.io/library/node:18-alpine
+2024-12-15T01:20:45.0177650Z #4 DONE 0.7s
+2024-12-15T01:20:45.1274574Z 
+2024-12-15T01:20:45.1275869Z #5 [internal] load .dockerignore
+2024-12-15T01:20:45.1276715Z #5 transferring context: 2B done
+2024-12-15T01:20:45.1277621Z #5 DONE 0.0s
+2024-12-15T01:20:45.1278247Z 
+2024-12-15T01:20:45.1279549Z #3 [linux/arm64 internal] load metadata for docker.io/library/node:18-alpine
+2024-12-15T01:20:45.1280330Z #3 DONE 0.7s
+2024-12-15T01:20:45.1280719Z 
+2024-12-15T01:20:45.1281231Z #6 [auth] likosik500/zadanie_2:pull token for registry-1.docker.io
+2024-12-15T01:20:45.1281943Z #6 DONE 0.0s
+2024-12-15T01:20:45.1282223Z 
+2024-12-15T01:20:45.1282757Z #7 importing cache manifest from likosik500/zadanie_2:cache
+2024-12-15T01:20:45.1284000Z #7 ERROR: failed to configure registry cache importer: docker.io/likosik500/zadanie_2:cache: not found
+2024-12-15T01:20:45.1284705Z 
+2024-12-15T01:20:45.1285534Z #8 [linux/arm64 builder 1/5] FROM docker.io/library/node:18-alpine@sha256:6eb9c3d9bd191bd2cc6ce7ec3d5ec4c2127616140c8586af96a6bec8f28689d1
+2024-12-15T01:20:45.1287198Z #8 resolve docker.io/library/node:18-alpine@sha256:6eb9c3d9bd191bd2cc6ce7ec3d5ec4c2127616140c8586af96a6bec8f28689d1 done
+2024-12-15T01:20:45.2328766Z #8 ...
+2024-12-15T01:20:45.2330391Z 
+2024-12-15T01:20:45.2330931Z #9 [internal] load build context
+2024-12-15T01:20:45.2331485Z #9 transferring context: 1.33kB done
+2024-12-15T01:20:45.2332070Z #9 DONE 0.0s
+2024-12-15T01:20:45.2332484Z 
+2024-12-15T01:20:45.2333337Z #8 [linux/arm64 builder 1/5] FROM docker.io/library/node:18-alpine@sha256:6eb9c3d9bd191bd2cc6ce7ec3d5ec4c2127616140c8586af96a6bec8f28689d1
+2024-12-15T01:20:45.2334447Z #8 sha256:24a0e36c8b3642f746c6fa00fcf7617d1588c62da9e1966cafa980c75f19f4a3 445B / 445B 0.0s done
+2024-12-15T01:20:45.2335196Z #8 sha256:2f15c201af7cab1906ae335a4b6166b29f27582a28faa4dda6cd7c745bcac116 1.26MB / 1.26MB 0.1s done
+2024-12-15T01:20:45.3563806Z #8 sha256:cb8611c9fe5154550f45e284cf977cda4e2b2fee3478552eee31d84be3c95003 3.99MB / 3.99MB 0.1s done
+2024-12-15T01:20:45.3565173Z #8 extracting sha256:cb8611c9fe5154550f45e284cf977cda4e2b2fee3478552eee31d84be3c95003
+2024-12-15T01:20:45.3567002Z #8 sha256:cc9d2e5c87c0ddbd93f6bd6aff04e7258e0f526cf5adee25f1cc3041dba55bd2 0B / 39.66MB 0.2s
+2024-12-15T01:20:45.4599176Z #8 extracting sha256:cb8611c9fe5154550f45e284cf977cda4e2b2fee3478552eee31d84be3c95003 0.1s done
+2024-12-15T01:20:45.4600084Z #8 sha256:cc9d2e5c87c0ddbd93f6bd6aff04e7258e0f526cf5adee25f1cc3041dba55bd2 15.73MB / 39.66MB 0.3s
+2024-12-15T01:20:45.6095020Z #8 sha256:cc9d2e5c87c0ddbd93f6bd6aff04e7258e0f526cf5adee25f1cc3041dba55bd2 32.51MB / 39.66MB 0.5s
+2024-12-15T01:20:45.7367555Z #8 sha256:cc9d2e5c87c0ddbd93f6bd6aff04e7258e0f526cf5adee25f1cc3041dba55bd2 39.66MB / 39.66MB 0.6s done
+2024-12-15T01:20:45.8909507Z #8 extracting sha256:cc9d2e5c87c0ddbd93f6bd6aff04e7258e0f526cf5adee25f1cc3041dba55bd2
+2024-12-15T01:20:46.6299985Z #8 ...
+2024-12-15T01:20:46.6300904Z 
+2024-12-15T01:20:46.6301953Z #10 [linux/amd64 builder 1/5] FROM docker.io/library/node:18-alpine@sha256:6eb9c3d9bd191bd2cc6ce7ec3d5ec4c2127616140c8586af96a6bec8f28689d1
+2024-12-15T01:20:46.6303600Z #10 resolve docker.io/library/node:18-alpine@sha256:6eb9c3d9bd191bd2cc6ce7ec3d5ec4c2127616140c8586af96a6bec8f28689d1 done
+2024-12-15T01:20:46.6305259Z #10 sha256:fdd316e9b466cfe32b99c16ab15ffa368056b7cc2cac442ffe71a21ed72c5af4 445B / 445B 0.1s done
+2024-12-15T01:20:46.6306688Z #10 sha256:e27d763222484061b437681bbee7cd895e8d87309da7ac7a908ba3e77d284802 1.26MB / 1.26MB 0.1s done
+2024-12-15T01:20:46.6307703Z #10 sha256:38a8310d387e375e0ec6fabe047a9149e8eb214073db9f461fee6251fd936a75 3.64MB / 3.64MB 0.1s done
+2024-12-15T01:20:46.6308987Z #10 extracting sha256:38a8310d387e375e0ec6fabe047a9149e8eb214073db9f461fee6251fd936a75 0.1s done
+2024-12-15T01:20:46.6310221Z #10 sha256:1b970ccead88ff493a9a12d0acf237ca14ceddd7c1c276350396f860b42d88b0 40.00MB / 40.00MB 0.4s done
+2024-12-15T01:20:46.6311229Z #10 extracting sha256:1b970ccead88ff493a9a12d0acf237ca14ceddd7c1c276350396f860b42d88b0 1.0s done
+2024-12-15T01:20:46.6312252Z #10 DONE 1.5s
+2024-12-15T01:20:46.8146841Z 
+2024-12-15T01:20:46.8148013Z #10 [linux/amd64 builder 1/5] FROM docker.io/library/node:18-alpine@sha256:6eb9c3d9bd191bd2cc6ce7ec3d5ec4c2127616140c8586af96a6bec8f28689d1
+2024-12-15T01:20:46.9337509Z #10 extracting sha256:e27d763222484061b437681bbee7cd895e8d87309da7ac7a908ba3e77d284802 0.0s done
+2024-12-15T01:20:46.9338821Z #10 extracting sha256:fdd316e9b466cfe32b99c16ab15ffa368056b7cc2cac442ffe71a21ed72c5af4 done
+2024-12-15T01:20:46.9339688Z #10 DONE 1.6s
+2024-12-15T01:20:46.9339886Z 
+2024-12-15T01:20:46.9340276Z #11 [linux/amd64 builder 2/5] WORKDIR /app
+2024-12-15T01:20:46.9502308Z #11 ...
+2024-12-15T01:20:46.9503018Z 
+2024-12-15T01:20:46.9504158Z #8 [linux/arm64 builder 1/5] FROM docker.io/library/node:18-alpine@sha256:6eb9c3d9bd191bd2cc6ce7ec3d5ec4c2127616140c8586af96a6bec8f28689d1
+2024-12-15T01:20:46.9505760Z #8 extracting sha256:cc9d2e5c87c0ddbd93f6bd6aff04e7258e0f526cf5adee25f1cc3041dba55bd2 1.2s done
+2024-12-15T01:20:46.9506318Z #8 DONE 1.8s
+2024-12-15T01:20:47.0856577Z 
+2024-12-15T01:20:47.0857591Z #8 [linux/arm64 builder 1/5] FROM docker.io/library/node:18-alpine@sha256:6eb9c3d9bd191bd2cc6ce7ec3d5ec4c2127616140c8586af96a6bec8f28689d1
+2024-12-15T01:20:47.0859421Z #8 extracting sha256:2f15c201af7cab1906ae335a4b6166b29f27582a28faa4dda6cd7c745bcac116 0.1s done
+2024-12-15T01:20:47.0861144Z #8 extracting sha256:24a0e36c8b3642f746c6fa00fcf7617d1588c62da9e1966cafa980c75f19f4a3 done
+2024-12-15T01:20:47.0862104Z #8 DONE 1.9s
+2024-12-15T01:20:47.0862496Z 
+2024-12-15T01:20:47.0862735Z #12 [linux/arm64 builder 2/5] WORKDIR /app
+2024-12-15T01:20:47.0863452Z #12 DONE 0.1s
+2024-12-15T01:20:47.0863779Z 
+2024-12-15T01:20:47.0864061Z #11 [linux/amd64 builder 2/5] WORKDIR /app
+2024-12-15T01:20:47.2549166Z #11 DONE 0.4s
+2024-12-15T01:20:47.2549525Z 
+2024-12-15T01:20:47.2549871Z #13 [linux/arm64 builder 3/5] COPY src/package*.json ./
+2024-12-15T01:20:47.2551507Z #13 DONE 0.0s
+2024-12-15T01:20:47.2551743Z 
+2024-12-15T01:20:47.2552147Z #14 [linux/amd64 builder 3/5] COPY src/package*.json ./
+2024-12-15T01:20:47.2552716Z #14 DONE 0.0s
+2024-12-15T01:20:47.2552996Z 
+2024-12-15T01:20:47.2553603Z #15 [linux/amd64 builder 4/5] RUN npm install
+2024-12-15T01:20:50.0887542Z #15 2.984 
+2024-12-15T01:20:50.0888226Z #15 2.984 added 74 packages, and audited 75 packages in 3s
+2024-12-15T01:20:50.2321482Z #15 2.984 
+2024-12-15T01:20:50.2321997Z #15 2.984 17 packages are looking for funding
+2024-12-15T01:20:50.2322658Z #15 2.984   run `npm fund` for details
+2024-12-15T01:20:50.2323306Z #15 2.986 
+2024-12-15T01:20:50.2323700Z #15 2.986 found 0 vulnerabilities
+2024-12-15T01:20:50.2324232Z #15 2.987 npm notice
+2024-12-15T01:20:50.2324922Z #15 2.987 npm notice New minor version of npm available! 10.8.2 -> 10.9.2
+2024-12-15T01:20:50.2326100Z #15 2.987 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.9.2
+2024-12-15T01:20:50.2326789Z #15 2.987 npm notice To update run: npm install -g npm@10.9.2
+2024-12-15T01:20:50.2327366Z #15 2.987 npm notice
+2024-12-15T01:20:50.2327648Z #15 DONE 3.1s
+2024-12-15T01:20:50.2327793Z 
+2024-12-15T01:20:50.2328003Z #16 [linux/amd64 builder 5/5] COPY src/ .
+2024-12-15T01:20:50.2328464Z #16 DONE 0.0s
+2024-12-15T01:20:50.2328648Z 
+2024-12-15T01:20:50.2328880Z #17 [linux/arm64 builder 4/5] RUN npm install
+2024-12-15T01:20:50.6442015Z #17 ...
+2024-12-15T01:20:50.6442389Z 
+2024-12-15T01:20:50.6442643Z #18 [linux/amd64 stage-1 3/3] COPY --from=builder /app /app
+2024-12-15T01:20:50.6443133Z #18 DONE 0.2s
+2024-12-15T01:20:50.7947822Z 
+2024-12-15T01:20:50.7948286Z #17 [linux/arm64 builder 4/5] RUN npm install
+2024-12-15T01:21:07.7582041Z #17 20.66 
+2024-12-15T01:21:07.7582862Z #17 20.66 added 74 packages, and audited 75 packages in 19s
+2024-12-15T01:21:07.9168421Z #17 20.66 
+2024-12-15T01:21:07.9169072Z #17 20.66 17 packages are looking for funding
+2024-12-15T01:21:07.9169692Z #17 20.66   run `npm fund` for details
+2024-12-15T01:21:07.9170264Z #17 20.67 
+2024-12-15T01:21:07.9170725Z #17 20.67 found 0 vulnerabilities
+2024-12-15T01:21:07.9171235Z #17 20.71 npm notice
+2024-12-15T01:21:07.9172014Z #17 20.71 npm notice New minor version of npm available! 10.8.2 -> 10.9.2
+2024-12-15T01:21:07.9172936Z #17 20.71 npm notice Changelog: https://github.com/npm/cli/releases/tag/v10.9.2
+2024-12-15T01:21:07.9174412Z #17 20.71 npm notice To update run: npm install -g npm@10.9.2
+2024-12-15T01:21:07.9175261Z #17 20.71 npm notice
+2024-12-15T01:21:07.9175764Z #17 DONE 20.8s
+2024-12-15T01:21:08.0976042Z 
+2024-12-15T01:21:08.0976641Z #19 [linux/arm64 builder 5/5] COPY src/ .
+2024-12-15T01:21:08.0977426Z #19 DONE 0.0s
+2024-12-15T01:21:08.0977680Z 
+2024-12-15T01:21:08.0977933Z #20 [linux/arm64 stage-1 3/3] COPY --from=builder /app /app
+2024-12-15T01:21:08.2678476Z #20 DONE 0.2s
+2024-12-15T01:21:08.4202117Z 
+2024-12-15T01:21:08.4202584Z #21 exporting to image
+2024-12-15T01:21:08.4203251Z #21 exporting layers
+2024-12-15T01:21:08.6050680Z #21 exporting layers 0.3s done
+2024-12-15T01:21:08.8449235Z #21 ...
+2024-12-15T01:21:08.8449569Z 
+2024-12-15T01:21:08.8449870Z #22 [auth] likosik500/zadanie_2:pull,push token for registry-1.docker.io
+2024-12-15T01:21:08.8450315Z #22 DONE 0.0s
+2024-12-15T01:21:08.8450473Z 
+2024-12-15T01:21:08.8450702Z #21 exporting to image
+2024-12-15T01:21:08.8451284Z #21 exporting manifest sha256:ab9469af078be1481f45ab4578916e55c702b3ce50558eb89344e1f29b4fd79c done
+2024-12-15T01:21:08.8451996Z #21 exporting config sha256:443b06440615341de3e40246f17951cfc914e751de9d7fbe8c87abaa0c5124c9 done
+2024-12-15T01:21:08.8452740Z #21 exporting attestation manifest sha256:130237b4d2755c959daa4c6952942f7fd17c08b766a2934196e19b6a301cbeb8 done
+2024-12-15T01:21:08.8453520Z #21 exporting manifest sha256:6d7685b2b6ccbb6f076868b52598cb5ce37ca8dec6cd93bc0d7336fb6b189fb8 done
+2024-12-15T01:21:08.8454218Z #21 exporting config sha256:f1678e7782d7ef4cb595d8d02c71a0e6a4b83661c7cf062a2064b96860e841fb done
+2024-12-15T01:21:08.8455029Z #21 exporting attestation manifest sha256:6ad4259ed47f48abe90be929f249e478a7486781935fec03c70b81f3ed538dc5 done
+2024-12-15T01:21:08.8455818Z #21 exporting manifest list sha256:f5d14bee9c83c24170dc316fb827af70a433751169d8e108b8805ba68b2a95e6 done
+2024-12-15T01:21:08.8456315Z #21 pushing layers
+2024-12-15T01:21:10.3980355Z #21 pushing layers 1.7s done
+2024-12-15T01:21:10.3981194Z #21 pushing manifest for docker.io/likosik500/zadanie_2:sha-56ae470@sha256:f5d14bee9c83c24170dc316fb827af70a433751169d8e108b8805ba68b2a95e6
+2024-12-15T01:21:11.2458849Z #21 pushing manifest for docker.io/likosik500/zadanie_2:sha-56ae470@sha256:f5d14bee9c83c24170dc316fb827af70a433751169d8e108b8805ba68b2a95e6 0.8s done
+2024-12-15T01:21:11.2460102Z #21 DONE 3.0s
+2024-12-15T01:21:11.2460289Z 
+2024-12-15T01:21:11.2460517Z #23 exporting cache to registry
+2024-12-15T01:21:11.2460912Z #23 preparing build cache for export
+2024-12-15T01:21:11.3670539Z #23 writing layer sha256:1b970ccead88ff493a9a12d0acf237ca14ceddd7c1c276350396f860b42d88b0 0.0s done
+2024-12-15T01:21:11.3672431Z #23 writing layer sha256:24a0e36c8b3642f746c6fa00fcf7617d1588c62da9e1966cafa980c75f19f4a3 0.0s done
+2024-12-15T01:21:11.3673664Z #23 writing layer sha256:2f15c201af7cab1906ae335a4b6166b29f27582a28faa4dda6cd7c745bcac116 0.0s done
+2024-12-15T01:21:11.3674776Z #23 writing layer sha256:38a8310d387e375e0ec6fabe047a9149e8eb214073db9f461fee6251fd936a75
+2024-12-15T01:21:11.5461245Z #23 writing layer sha256:38a8310d387e375e0ec6fabe047a9149e8eb214073db9f461fee6251fd936a75 0.0s done
+2024-12-15T01:21:11.5463279Z #23 writing layer sha256:58ce3685a581fc34f6a7f3978376723f0d97ed441e417418aa4e1cb3cdbc1969 0.1s done
+2024-12-15T01:21:11.5464844Z #23 writing layer sha256:5dbbac127ce9164bfc57f4c01c6437b1893d605989d635f4444f437538c54985
+2024-12-15T01:21:11.6750759Z #23 writing layer sha256:5dbbac127ce9164bfc57f4c01c6437b1893d605989d635f4444f437538c54985 0.1s done
+2024-12-15T01:21:11.6751644Z #23 writing layer sha256:7e580c420ed31630afd6039c60ea11d2e6cd818fada23b13d5b2a012ec28d0cd
+2024-12-15T01:21:11.8102655Z #23 writing layer sha256:7e580c420ed31630afd6039c60ea11d2e6cd818fada23b13d5b2a012ec28d0cd 0.1s done
+2024-12-15T01:21:11.8104134Z #23 writing layer sha256:cb8611c9fe5154550f45e284cf977cda4e2b2fee3478552eee31d84be3c95003
+2024-12-15T01:21:11.9446651Z #23 writing layer sha256:cb8611c9fe5154550f45e284cf977cda4e2b2fee3478552eee31d84be3c95003 0.1s done
+2024-12-15T01:21:11.9448535Z #23 writing layer sha256:cc9d2e5c87c0ddbd93f6bd6aff04e7258e0f526cf5adee25f1cc3041dba55bd2 0.0s done
+2024-12-15T01:21:11.9449756Z #23 writing layer sha256:e27d763222484061b437681bbee7cd895e8d87309da7ac7a908ba3e77d284802 0.0s done
+2024-12-15T01:21:11.9450745Z #23 writing layer sha256:f19235c40036bbf48570851626e51fc5151bfa05ee31cbff07625860fad5448c
+2024-12-15T01:21:12.1528920Z #23 writing layer sha256:f19235c40036bbf48570851626e51fc5151bfa05ee31cbff07625860fad5448c 0.2s done
+2024-12-15T01:21:12.1530137Z #23 writing layer sha256:fdd316e9b466cfe32b99c16ab15ffa368056b7cc2cac442ffe71a21ed72c5af4
+2024-12-15T01:21:12.3446946Z #23 writing layer sha256:fdd316e9b466cfe32b99c16ab15ffa368056b7cc2cac442ffe71a21ed72c5af4 0.0s done
+2024-12-15T01:21:12.3448133Z #23 writing config sha256:395f67ce7ae5da87040d4ded3643c780dc169221c4c424544c2b6967705810ad
+2024-12-15T01:21:12.7354934Z #23 writing config sha256:395f67ce7ae5da87040d4ded3643c780dc169221c4c424544c2b6967705810ad 0.5s done
+2024-12-15T01:21:12.7356026Z #23 writing cache manifest sha256:040f791b75ae997afbcb000a11fdfba12498e46f6b4476c8a68ee82243cd2bee
+2024-12-15T01:21:13.1949538Z #23 preparing build cache for export 1.9s done
+2024-12-15T01:21:13.1950913Z #23 writing cache manifest sha256:040f791b75ae997afbcb000a11fdfba12498e46f6b4476c8a68ee82243cd2bee 0.5s done
+2024-12-15T01:21:13.1952178Z #23 DONE 1.9s
+2024-12-15T01:21:13.2313656Z 
+2024-12-15T01:21:13.2314108Z #24 resolving provenance for metadata file
+2024-12-15T01:21:13.2314726Z #24 DONE 0.0s
+2024-12-15T01:21:13.2315117Z ------
+2024-12-15T01:21:13.2315818Z  > importing cache manifest from likosik500/zadanie_2:cache:
+2024-12-15T01:21:13.2316363Z ------
+2024-12-15T01:21:13.2389011Z ##[group]ImageID
+2024-12-15T01:21:13.2389589Z sha256:f5d14bee9c83c24170dc316fb827af70a433751169d8e108b8805ba68b2a95e6
+2024-12-15T01:21:13.2391191Z ##[endgroup]
+2024-12-15T01:21:13.2392004Z ##[group]Digest
+2024-12-15T01:21:13.2392668Z sha256:f5d14bee9c83c24170dc316fb827af70a433751169d8e108b8805ba68b2a95e6
+2024-12-15T01:21:13.2394123Z ##[endgroup]
+2024-12-15T01:21:13.2394576Z ##[group]Metadata
+2024-12-15T01:21:13.2395171Z {
+2024-12-15T01:21:13.2396116Z   "buildx.build.ref": "builder-a7659c35-20da-4ae3-b004-d3460be26dbb/builder-a7659c35-20da-4ae3-b004-d3460be26dbb0/ifj3leaxblaz6bz5c4xvlm27x",
+2024-12-15T01:21:13.2397748Z   "cache.manifest": "{\"mediaType\":\"application/vnd.oci.image.index.v1+json\",\"digest\":\"sha256:040f791b75ae997afbcb000a11fdfba12498e46f6b4476c8a68ee82243cd2bee\",\"size\":4193}",
+2024-12-15T01:21:13.2399041Z   "containerimage.descriptor": {
+2024-12-15T01:21:13.2399461Z     "mediaType": "application/vnd.oci.image.index.v1+json",
+2024-12-15T01:21:13.2400062Z     "digest": "sha256:f5d14bee9c83c24170dc316fb827af70a433751169d8e108b8805ba68b2a95e6",
+2024-12-15T01:21:13.2400526Z     "size": 1609
+2024-12-15T01:21:13.2400786Z   },
+2024-12-15T01:21:13.2401296Z   "containerimage.digest": "sha256:f5d14bee9c83c24170dc316fb827af70a433751169d8e108b8805ba68b2a95e6",
+2024-12-15T01:21:13.2401902Z   "image.name": "likosik500/zadanie_2:sha-56ae470"
+2024-12-15T01:21:13.2402213Z }
+2024-12-15T01:21:13.2402944Z ##[endgroup]
