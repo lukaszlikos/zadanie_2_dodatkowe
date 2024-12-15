@@ -60,12 +60,12 @@ jobs:
             type=registry,ref=likosik500/zadanie_2:cache 
           cache-to: |
             type=registry,ref=likosik500/zadanie_2:cache  
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: latest
           
       - 
         name: Extract first tag
         id: extract_tag
-        run: echo "TAG=$(echo '${{ steps.meta.outputs.tags }}' | cut -d',' -f1)" >> $GITHUB_ENV
+        run: echo "TAG=$(echo 'latest' | cut -d',' -f1)" >> $GITHUB_ENV
 
       - 
         name: Run Trivy vulnerability scanner
