@@ -25,7 +25,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ vars.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}
+          images: likosik500/zadanie_2
           flavor: latest=false
           tags: |
             type=sha,priority=100,prefix=sha-,format=short
@@ -57,9 +57,9 @@ jobs:
           provenance: mode=max
           sbom: true
           cache-from: |
-            type=registry,ref=${{ vars.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:cache 
+            type=registry,ref=likosik500/zadanie_2:cache 
           cache-to: |
-            type=registry,ref=${{ vars.DOCKERHUB_USERNAME }}/${{ env.IMAGE_NAME }}:cache  
+            type=registry,ref=likosik500/zadanie_2:cache  
           tags: ${{ steps.meta.outputs.tags }}
           
       - 
@@ -71,7 +71,6 @@ jobs:
         name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@0.28.0
         with:
-          image-ref: '${{ vars.DOCKERHUB_USERNAME }}:${{ env.TAG }}'
           format: 'table'
           exit-code: '1'
           ignore-unfixed: true
